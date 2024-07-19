@@ -4,6 +4,11 @@ This is a collection of research papers for **Efficient Diffusion/LLM**, includi
 
 ## Overview of Papers
 
+### Survey
+- [A Survey on LoRA of Large Language Models](https://arxiv.org/abs/2407.11046)
+  - Yuren Mao, Yuhang Ge, Yijiang Fan, Wenyi Xu, Yu Mi, Zhonghao Hu, Yunjun Gao
+  - Zhejiang University
+
 ### Oral
 - [Improving Transformers with Dynamically Composable Multi-Head Attention](https://openreview.net/pdf?id=RbiBKPtuHp)
   - Shentao Da Xiao, Qingye Meng, Shengping Li, xingyuan yuan
