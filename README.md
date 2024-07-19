@@ -78,3 +78,9 @@ This is a collection of research papers for **Efficient Diffusion/LLM**, includi
   - Idea: 本论文提出了一种名为DoRA（Decomposed Rank Adaptation）的方法，该方法旨在通过分解权重矩阵的低秩适应来改进深度学习模型的适应性和泛化能力。论文详细描述了DoRA的实现细节，并通过实验验证了其在多个基准数据集上的有效性。DoRA 将预训练的权重分解为两个部分，即幅度和方向，以便进行微调，特别是利用 LoRA 进行方向更新，从而有效地减少可训练参数的数量。通过使用 DoRA，我们增强了 LoRA 的学习能力和训练稳定性，同时避免了任何额外的推理开销。在各种下游任务（如常识推理、视觉指令调整和图像/视频文本理解）中，DoRA 在微调 LLaMA、LLaVA 和 VL-BART 方面的表现始终优于 LoRA。
 
 
+### Poster
+
+- [COLLAGE: Light-Weight Low-Precision Strategy for LLM Training](https://arxiv.org/pdf/2405.03637)
+- Tao Yu, Gaurav Gupta, Karthick Gopalswamy, Amith Mamidala, Hao Zhou, Jeffrey Huynh, Youngsuk Park, Ron Diamant, Anoop Deoras, Luke Huan
+- Code: No
+- Idea: 
