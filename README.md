@@ -1,10 +1,146 @@
-# Awesome Efficient Diffusion/LLM in ICML 2024
+# Awesome Efficient Diffusion/LLM/Visual Autoregressive Model
 
-This is a collection of research papers for **Efficient Diffusion/LLM**, including accelerated sampling, fine-tuning, architecture and so on.d
+This is a collection of research papers for **Efficient Diffusion/LLM**, including accelerated sampling, fine-tuning, architecture and so on.
 
-## Overview of Papers
+
+## Selected Work (I like!!)
+
+### Visual Autogressive Model & Diffusion-related Recent work
+
+> In recent times, I've immersed myself in Visual Autoregressive Model, which I'll list over here.
+
+- [Muse: Text-To-Image Generation via Masked Generative Transformers](https://arxiv.org/abs/2301.00704) [ICML 2023] [Mask-Token Prediction]
+  - Huiwen Chang, Han Zhang,..., Dilip Krishnan
+  - Code: [Community](https://github.com/lucidrains/muse-maskgit-pytorch) [Community](https://github.com/baaivision/muse-pytorch) [Community](https://github.com/huggingface/amused) [Community](https://github.com/Qiyuan-Ge/PaintMind)
+
+- [Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation](https://arxiv.org/abs/2406.06525) [Arxiv 2024] [Next-Token Prediction]
+  - Peize Sun, Yi Jiang, Shoufa Chen, Shilong Zhang, Bingyue Peng, Ping Luo, Zehuan Yuan
+  - Code: [Official](https://github.com/foundationvision/llamagen)
+
+- [MaskGIT: Masked Generative Image Transformer](https://arxiv.org/abs/2202.04200) [CVPR 2022] [Mask-Token Prediction]
+  - Huiwen Chang and Han Zhang and Lu Jiang and Ce Liu and William T. Freeman
+  - Code: [Official](https://github.com/google-research/maskgit)
+
+- [Chameleon: Mixed-Modal Early-Fusion Foundation Models](https://arxiv.org/pdf/2405.09818) [Arxiv 2024] [Next-Token Prediction] [MLLM]
+  - Chameleon Team
+  - Code: Waiting...
+
+- [Computational Tradeoffs in Image Synthesis: Diffusion, Masked-Token, and Next-Token Prediction](https://www.arxiv.org/abs/2405.13218) [Arxiv 2024] [Next-Token Prediction] [Mask-Token Prediction]
+  - Maciej Kilian, Varun Jampani, Luke Zettlemoyer
+  - Code: Waiting...
+
+- [SHOW-O: One Single Transformer to Unify Multimodel Understanding and Generation](https://arxiv.org/pdf/2408.12528) [Arxiv 2024] [Next-Token Prediction] [Mask-Token Prediction] [MLLM]
+  - Jinheng Xie, Weijia Mao,..., Mike Zheng Shou
+  - Code: [Official-Jax](https://github.com/showlab/show-o)
+
+- [Lumina-mGPT: Illuminate Flexible Photorealistic Text-to-Image Generation with Multimodal Generative Pretraining](https://arxiv.org/abs/2408.02657) [Arxiv 2024] [Next-Token Prediction] [MLLM]
+  - Dongyang Liu, Shitian Zhao, Le Zhuo, Weifeng Lin, Yu Qiao, Hongsheng Li, Peng Gao
+  - Code: [Official](https://github.com/alpha-vllm/lumina-mgpt)
+
+- [VAR-CLIP: Text-to-Image Generator with Visual Auto-Regressive Modeling](https://arxiv.org/pdf/2408.01181) [Arxiv 2024] [Next-Scale Prediction]
+  - Qian Zhang, Xiangzi Dai, Ninghua Yang, Xiang An, Ziyong Feng, Xingyu Ren
+  - Code: [Official](https://github.com/daixiangzi/var-clip)
+
+- [OmniTokenizer: A Joint Image-Video Tokenizer for Visual Generation](https://arxiv.org/pdf/2406.09399) [Arxiv 2024] [Next-Token Prediction] [Diffusion] [Tokenizer]
+  - Junke Wang, Yi Jiang, Zehuan Yuan, Binyue Peng, Zuxuan Wu, Yu-Gang Jiang
+  - Code: [Official](https://github.com/foundationvision/omnitokenizer)
+
+- [Open-MAGVIT2: An Open-Source Project Toward Democratizing Auto-regressive Visual Generation](https://arxiv.org/pdf/2409.04410) [Arxiv 2024] [Next-Token Prediction]
+  - Zhuoyan Luo, Fengyuan Shi, Yixiao Ge, Yujiu Yang, Limin Wang, Ying Shan
+  - Code: Waiting...
+
+- [Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation](https://arxiv.org/abs/2310.05737) [ICLR 2024] [Next-Token Prediction] [Mask-Token Prediction] [Tokenizer]
+  - Lijun Yu, Jose Lezama,..., Lu Jiang
+  - Code: [Official](https://github.com/bornfly-detachment/asymmetric_magvitv2)
+
+- [Emu3: Next-Token Prediction is All You Need](https://arxiv.org/abs/2409.18869) [Arxiv 2024] [Next-Token Prediction]
+  - Xinlong Wang, Xiaosong Zhang,..., Zhongyuan Wang
+  - Code: Waiting...
+
+- [Monoformer: One Transformer for Both Diffusion And Autoregression](https://arxiv.org/pdf/2409.16280) [Arxiv 2024] [Next-Token Prediction] [Diffusion]
+  - Chuyang Zhao1, Yuxing Song1,..., Jingdong Wang
+  - Code: Waiting...
+
+- [MaskBit: Embedding-free Image Generation via Bit Tokens](https://arxiv.org/pdf/2409.16211) [Arxiv 2024] [Mask-Token Prediction] [Tokenizer]
+  - Mark Weber, Lijun Yu, Qihang Yu, Xueqing Deng, Xiaohui Shen, Daniel Cremers, Liang-Chieh Chen
+  - Code: Waiting...
+
+- [Scaling Diffusion Transformers to 16 Billion Parameters](https://arxiv.org/pdf/2407.11633) [Arxiv 2024] [Diffusion] [MoE]
+  - Zhengcong Fei, Mingyuan Fan, Changqian Yu, Debang Li, Junshi Huang
+  - Code: [Official](https://github.com/feizc/dit-moe)
+
+- [Efficient Autoregressive Audio Modeling via Next-Scale Prediction](https://arxiv.org/abs/2408.09027) [Arxiv 2024] [Next-Scale Prediction]
+  - Kai Qiu, Xiang Li, Hao Chen, Jie Sun, Jinglu Wang, Zhe Lin, Marios Savvides, Bhiksha Raj
+  - Code: [Official](https://github.com/qiuk2/aar)
+
+- [StableRep: Synthetic Images from Text-to-Image Models Make Strong Visual Representation Learners](https://proceedings.neurips.cc/paper_files/paper/2023/hash/971f1e59cd956cc094da4e2f78c6ea7c-Abstract-Conference.html) [NeurIPS 2023] [Diffusion]
+  - Yonglong Tian, Lijie Fan, Phillip Isola, Huiwen Chang, Dilip Krishnan
+  - Code: [Official](https://github.com/google-research/syn-rep-learn)
+
+- [Autoregressive Image Generation without Vector Quantization](https://arxiv.org/abs/2406.11838) [NeurIPS 2024] [Next-Token Prediction]
+  - Tianhong Li, Yonglong Tian, He Li, Mingyang Deng, Kaiming He
+  - Code: [Official](https://github.com/lth14/mar)
+
+- [AdaNAT: Exploring Adaptive Policy for Token-Based Image Generation](https://arxiv.org/pdf/2409.00342) [ECCV 2024] [Mask-Token Prediction] [Heavy-Inference Algorithm]
+  - Zanlin Ni, Yulin Wang, Renping Zhou, Rui Lu, Jiayi Guo, Jinyi Hu, Zhiyuan Liu, Yuan Yao, Gao Huang
+  - Code: [Official](https://github.com/leaplabthu/adanat)
+
+- [Discrete Flow Matching](https://arxiv.org/pdf/2407.15595) [Arxiv 2024] [META] [Diffusion in LLM]
+  - Meta AI FAIR, Weizmann Institute
+  - Code: Waiting...
+
+
+### Heavy-Inference Algorithm in T2V Synthesis (Inference Scaling Laws)
+
+> This was my research direction, even though the vast majority of the work was REJECTED.
+
+- [FreeNoise: Tuning-Free Longer Video Diffusion via Noise Rescheduling](https://arxiv.org/abs/2310.15169) [ICLR 2024]
+  - Haonan Qiu, Menghan Xia, Yong Zhang, Yingqing He, Xintao Wang, Ying Shan, Ziwei Liu
+  - Code: [Official](https://github.com/AILab-CVC/FreeNoise)
+
+- [FreeInit : Bridging Initialization Gap in Video Diffusion Models](https://arxiv.org/abs/2312.07537) [ECCV 2024]
+  - Tianxing Wu, Chenyang Si, Yuming Jiang, Ziqi Huang, Ziwei Liu
+  - Code: [Official](https://github.com/TianxingWu/FreeInit)
+
+- [UniCtrl: Improving the Spatiotemporal Consistency of Text-to-Video Diffusion Models via Training-Free Unified Attention Control](https://arxiv.org/abs/2403.02332) [Arxiv 2024]
+  - Xuweiyi Chen, Tian Xia, Sihan Xu
+  - Code: [Official](https://github.com/XuweiyiChen/UniCtrl)
+
+- [I4VGen: Image as Free Stepping Stone for Text-to-Video Generation](https://arxiv.org/abs/2406.02230) [Arxiv 2024]
+  - Xiefan Guo, Jinlin Liu, Miaomiao Cui, Liefeng Bo, Di Huang
+  - Code: [Official](https://github.com/xiefan-guo/i4vgen)
+
+- [ViCo: Plug-and-play Visual Condition for Personalized Text-to-image Generation](https://arxiv.org/abs/2306.00971) [Arxiv 2023]
+  - Shaozhe Hao, Kai Han, Shihao Zhao, Kwan-Yee K. Wong
+  - Code: [Official](https://github.com/haoosz/ViCo)
+
+- [VideoBooth: Diffusion-based Video Generation with Image Prompts](https://openaccess.thecvf.com/content/CVPR2024/html/Jiang_VideoBooth_Diffusion-based_Video_Generation_with_Image_Prompts_CVPR_2024_paper.html) [CVPR 2024]
+  - Yuming Jiang, Tianxing Wu, Shuai Yang, Chenyang Si, Dahua Lin, Yu Qiao, Chen Change Loy, Ziwei Liu
+  - Code: [Official](https://github.com/Vchitect/VideoBooth)
+
+- [VideoElevator: Elevating Video Generation Quality with Versatile Text-to-Image Diffusion Models](https://arxiv.org/abs/2403.05438) [Arxiv 2024]
+  - Yabo Zhang, Yuxiang Wei, Xianhui Lin, Zheng Hui, Peiran Ren, Xuansong Xie, Xiangyang Ji, Wangmeng Zuo
+  - Code: [Official](https://github.com/YBYBZhang/VideoElevator)
+
+- [FreeLong: Training-Free Long Video Generation with SpectralBlend Temporal Attention](https://arxiv.org/abs/2407.19918) [NeurIPS 2024]
+  - Yu Lu, Yuanzhi Liang, Linchao Zhu and Yi Yang
+  - Code: Waiting
+
+- [GPT4Motion: Scripting Physical Motions in Text-to-Video Generation via Blender-Oriented GPT Planning](https://openaccess.thecvf.com/content/CVPR2024W/PBDL/papers/Lv_GPT4Motion_Scripting_Physical_Motions_in_Text-to-Video_Generation_via_Blender-Oriented_GPT_CVPRW_2024_paper.pdf) [CVPR 2024 Workshop]
+  - Jiaxi Lv, Yi Huang,..., Shifeng Chen
+  - Code: [Official](https://github.com/jiaxilv/GPT4Motion)
+
+<!-- - [IV-Mixed Sampler: Leveraging Image Diffusion Models for Enhanced Video Synthesis]()
+  - Shitong Shao, Zikai Zhou, Lichen Bai, Haoyi Xiong, Zeke Xie
+ -->
+
+### Data-Centric Optimization in LLM
+
+
+## ICML 2024
 
 ### Oral
+
 - [Improving Transformers with Dynamically Composable Multi-Head Attention](https://openreview.net/pdf?id=RbiBKPtuHp)
   - Shentao Da Xiao, Qingye Meng, Shengping Li, xingyuan yuan
   - Code: [Official](https://github.com/caiyun-ai/dcformer)
@@ -22,7 +158,7 @@ This is a collection of research papers for **Efficient Diffusion/LLM**, includi
 
 - [Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision](https://openreview.net/pdf?id=ghNRg2mEgN)
   - Collin Burns, Pavel Izmailov, Jan Hendrik Kirchner, Bowen Baker, Leo Gao, Leopold Aschenbrenner, Yining Chen, Adrien Ecoffet, Manas Joglekar, Jan Leike, Ilya Sutskever, Jeffrey Wu
-  - Code: No
+  - Code: Waiting
   - Idea: 是提出了一个研究超越人类模型的核心挑战的简单类比，并展示了在这个问题上取得显著进展的可行性。作者首先指出了深度学习中对过参数化（overparameterization）的兴趣日益增加，但随后转向了一个更具挑战性的问题：如何对齐超越人类的模型。为了实现这一目标，文章通过类比和假设，探索了可能的研究途径，并讨论了如何通过现有的系统和方法来应对未来的模型能力可能带来的挑战。尽管作者没有声称拥有完整的答案，但他们概述了一些最佳实践，以最大化在解决对齐超越人类模型这一核心难题上取得真实进展的机会。此外，文章还强调了在研究中明确和枚举关键假设的重要性，以便更好地理解何时研究结果可能失效。其中文章提到的超越人类模型的“对齐”指的是确保超级智能模型（即那些在某些任务上性能超越人类的模型）的行为和决策与人类的价值观、道德准则和预期目标保持一致。
   - Citation: 85 Now
 
@@ -57,11 +193,6 @@ This is a collection of research papers for **Efficient Diffusion/LLM**, includi
   - Code: [Official](https://github.com/SNU-ARC/any-precision-llm)
   - Idea: 本文探讨了低成本部署多种不同大小的大规模语言模型（LLMs）的方法，即Any-Precision LLM。研究分析了通过量化技术降低LLM部署成本的有效性，并比较了不同精度下的模型性能。权重位平面布局优化（Weight Bitplane Layout Optimization, WLO）：这种技术优化了缓存访问模式，使得在较低位宽下，缓存的利用更加高效。改进的位转置算法（Improved Bit-Transpose Algorithm, IBT）：相对于现有的位转置算法（如Warren, 2012年提出的算法），改进后的算法在计算效率上有了显著提升。表查找合并（Table Lookup Merging, TLM）：对于3位的情况，通过表查找合并技术，进一步提高了计算效率。
 
-- [Any-Precision LLM: Low-Cost Deployment of Multiple, Different-Sized LLMs](https://openreview.net/pdf?id=u09gadH3BU)
-  - Yeonhong Park, Jake Hyun, SangLyul Cho, Bonggeun Sim, Jae W. Lee
-  - Code: [Official](https://github.com/SNU-ARC/any-precision-llm)
-  - Idea: 本文探讨了低成本部署多种不同大小的大规模语言模型（LLMs）的方法，即Any-Precision LLM。研究分析了通过量化技术降低LLM部署成本的有效性，并比较了不同精度下的模型性能。权重位平面布局优化（Weight Bitplane Layout Optimization, WLO）：这种技术优化了缓存访问模式，使得在较低位宽下，缓存的利用更加高效。改进的位转置算法（Improved Bit-Transpose Algorithm, IBT）：相对于现有的位转置算法（如Warren, 2012年提出的算法），改进后的算法在计算效率上有了显著提升。表查找合并（Table Lookup Merging, TLM）：对于3位的情况，通过表查找合并技术，进一步提高了计算效率。
-
 - [Accurate LoRA-Finetuning Quantization of LLMs via Information Retention](https://openreview.net/pdf?id=jQ92egz5Ym)
   - Haotong Qin, Xudong Ma, Xingyu Zheng, Xiaoyang Li, Yang Zhang, Shouda Liu, Jie Luo, Xianglong Liu, Michele Magno
   - Code: [Official](https://openreview.net/pdf?id=jQ92egz5Ym)
@@ -77,10 +208,15 @@ This is a collection of research papers for **Efficient Diffusion/LLM**, includi
   - Code: [Official](https://github.com/NVlabs/DoRA)
   - Idea: 本论文提出了一种名为DoRA（Decomposed Rank Adaptation）的方法，该方法旨在通过分解权重矩阵的低秩适应来改进深度学习模型的适应性和泛化能力。论文详细描述了DoRA的实现细节，并通过实验验证了其在多个基准数据集上的有效性。DoRA 将预训练的权重分解为两个部分，即幅度和方向，以便进行微调，特别是利用 LoRA 进行方向更新，从而有效地减少可训练参数的数量。通过使用 DoRA，我们增强了 LoRA 的学习能力和训练稳定性，同时避免了任何额外的推理开销。在各种下游任务（如常识推理、视觉指令调整和图像/视频文本理解）中，DoRA 在微调 LLaMA、LLaVA 和 VL-BART 方面的表现始终优于 LoRA。
 
+### Spotlight
+
 
 ### Poster
 
 - [COLLAGE: Light-Weight Low-Precision Strategy for LLM Training](https://arxiv.org/pdf/2405.03637)
 - Tao Yu, Gaurav Gupta, Karthick Gopalswamy, Amith Mamidala, Hao Zhou, Jeffrey Huynh, Youngsuk Park, Ron Diamant, Anoop Deoras, Luke Huan
-- Code: No
-- Idea: 
+- Code: Waiting
+- Idea: 该论文引入了一种已经存在的低比特张良组织形式，名为MCF，它采用这个替代传统的float32进行优化器的参数更新。具体来说，它其实没有改变任何的计算逻辑，也没有做出一些算法上的创新，更多体现在工程上。实现优化其中二阶动量更新和梯度更新采用MCF来计算，并给予实现，大规模降低了计算存储和消耗。
+
+
+## NeurIPS 2024
